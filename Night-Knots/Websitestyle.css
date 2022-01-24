@@ -1,0 +1,149 @@
+/* File created by Annika on 11/1  */
+h3 {
+    color: black;
+    font-size: 70px;
+    text-decoration-line: underline;
+    text-decoration-color: #ccc1e8;
+    font-family: 'Dancing Script', cursive;
+}
+ 
+h2 {
+    color: black;
+    background-color:  #faf5ff;
+      font-family: 'Dancing Script', cursive;
+}
+ 
+ 
+   /* Search "hex color picker" in Google to pick a color by hex value */
+h5 {  
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}   
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+ 
+ body {
+    border-style: double;
+    border-width: 7px;
+    border-color:#ccc1e8;
+    text-align: center;
+    background-color:#fdf2ff;
+  
+} 
+     /* changed headers to smaller fonts and ajusted pictures by annika on 11/15 */
+   
+table { 
+    text-align: center; 
+}
+
+   
+#navbar{
+    font-size: 30px;
+    border-width: 10px;
+    text-align: center;
+    padding-top: 10;
+    border: #ccc1e8;
+    border-style: double;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    text-align: center;
+    list-style-type: disc;
+    height: 60px; 
+    font-family: 'Dancing Script', cursive;
+    background-color: #e2e2ff;
+  }
+
+#Logo{
+border-style: none;
+margin: 20px;
+}
+
+iframe{
+    border-style: double;
+    border-color: #ccc1e8;
+    border-width: 5px;
+    }
+
+
+img{
+border-style: double;
+border-color: #ccc1e8;
+border-width: 5px;
+}
+li{
+    margin: 5mm;
+    display: inline;
+    text-align: center;
+    color: #003366;
+    position:absolute;
+    top: 250;
+    font-family: 'Dancing Script', cursive;
+}
+td{
+margin: 10;
+}
+#index{
+   left: 500;
+}
+#company{
+    right: 500;
+}
+#index1{
+    left: 500;
+ }
+ #company1{
+     right: 500;
+ }
+li:hover{
+   color: white;
+    
+}
+.transparent{
+    width: 33%;
+    opacity: 50%;
+    border-style: none;
+    margin-top: 5;
+}
+th{
+    color: black;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(138, 138, 138);
+}
+.header1{
+    background-color: #efe2ff;
+    text-decoration:none;
+}
+#ourteam{
+    background-color: #f8e2ffa1;
+    text-decoration: none;
+}
+
+/* 
+#c1d8f5 light blue
+
+
+#d6d0d0 light grey */
+
+
+
+
+
+
+
+
+
+   
+    
+

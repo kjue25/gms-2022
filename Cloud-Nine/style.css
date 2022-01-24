@@ -1,0 +1,252 @@
+/* Vivi edited 11-1-21 */
+/* Livi edited 11-2-21 */
+/* Carina edited 11-2-21 */
+/* Fixed the side things were on */
+
+
+
+
+
+#cloudtable{
+float:left;  
+}
+#cloudbedroom{
+    float:right;
+}
+
+
+img:hover{
+    transform: scale(1.05);
+}
+a{
+    color:#baefff; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+h2:hover{
+color: white;
+}
+h1{
+    text-shadow:#406b91;
+    font-family: fantasy;
+    font-size:150;
+    text-align:center
+
+}
+#COGS:hover{
+    transform: scale(1.05);
+
+}
+#Fairy_Lights:hover{
+    transform: scale(1.05);
+}
+#navbar{
+    text-align:left;
+}
+img{
+    border-radius: 60px;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+#index{
+    border-style: solid;
+    border-width: 20px;
+    border-color: white;
+    background-image: url("mint.jpg");
+    background-color: #baefff;
+    background-color: whitesmoke;
+    text-align:center;
+    font-family: cursive;
+    margin:10px;
+    font-family: cursive;
+    color: white;
+    
+}
+    
+#price{
+        border-style: solid;
+        border-width: 20px;
+        border-color: whitesmoke;
+    
+        background-image: url("navbar4.jpg");
+         
+        background-color: white;
+        background-color: whitesmoke;
+        text-align:center;
+        font-family: cursive;
+        margin:10px;
+        font-family: cursive;
+        color: white;
+}
+
+#company{
+    border-style: solid;
+    border-width: 20px;
+    border-color: whitesmoke;
+    background-image: url("mint.jpg");
+    scroll-behavior: smooth;
+    background-color: white; 
+    background-color: whitesmoke;
+    text-align:center;
+    font-family: cursive;;
+    margin:10px;
+    font-family: cursive;
+    color: white;
+    text-decoration-color: white;
+    
+}
+    a{
+    font-weight:bold;
+    font-size:25px;
+    cursor: -webkit-grab;
+     }
+     a:hover{
+         font-size:27px;
+         transition:all 500ms;
+         font-size-adjust:5px;
+     }
+
+h2{
+    color:#487bb0; 
+}
+
+p{
+    Color:#487bb0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    
+}
+h1 {
+   
+    font-family: cursive ; color:#487bb0;
+    font-size: 75px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: white
+}
+
+
+#navbar {
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("navbar4.jpg");
+    
+    }
+
+    #navbar li {
+    display:inline-block
+
+    }
+    
+    #navbar a {
+    color: white;
+    background-color: #ffcfe5;
+    border-radius: 10px;
+    text-decoration: none;
+    }
+    
+    
+    #companyheader{
+        font-size: 60px;
+    }
+    
+    
+#logo{
+    float:left;
+    display: inline-block;
+}
+    #COGS{
+        text-align:left
+    }
+
+    #Fairy_lights{
+        text-align: right;
+    }
+    
+   #music_words{
+   margin:0;
+   }
+    body {
+        background-size: 400% 400%;
+        animation: gradient 300s ease infinite;
+
+    }
+#Clyde{
+    float:left;
+    float: inline-end;
+}
+#music{
+    float: right;
+    display:block;
+}
+    table{
+        text-align: center;
+        Color:#487bb0;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:15px;
+        width: 100%;
+    }
+
+iframe{
+    border-radius: 60px;
+    border-color: white;
+    border: white;
+    
+}
+    #names{
+        font-size:20px;
+        color: white; 
+    }
+
+.company_photos {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    }
+    .bigpic {
+        width: 100%;
+        height: 200px;
+        display: block;
+        color: teal;
+        background: url('www.pictureUlr.com');
+        }
+        
+        .bigletters {
+          position: absolute;
+          display: inline-block
+          top: 40px;
+          left 40px;
+          font-size: 3em;
+          color: white;
+        }
+
+       
+        #ClW{
+            text-align: left;
+        }
+        
+        #CL{
+             float: right;
+        }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        0% {
+            background-position: 0% 50%;
+        }
+        
+    }
+   
+
+    

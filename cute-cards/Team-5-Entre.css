@@ -1,0 +1,78 @@
+/* Alaina created this file on 11/1/21 */
+#navbar {
+    background-color: rgb(235, 225, 255);
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 13px; 
+    text-align: center;
+    border-spacing: 10px;
+    border-width: 0ex;
+    
+
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 20px;
+}
+
+#navbar a {
+    color: black
+}
+
+/* alaina did this */
+
+h1 {
+    text-align: center;
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 80px; 
+    letter-spacing: 5px;
+    display: inline-block; 
+    padding: 20px; 
+}
+#words{
+    background-color:white;
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 13px; 
+    text-align: center;
+    padding: 20px;
+    
+}
+#body {
+    background-color:white;
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 13px; 
+    text-align: center;
+    padding: 20px;
+    
+}
+h2 {
+    background-color:white;
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 13px; 
+    text-align: center;
+    padding: 10px;
+}
+#everything{
+    background-color: rgb(235, 225, 255);
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 13px; 
+    text-align: center;
+}
+img{
+    background-color:white;
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 13px; 
+    text-align: center;
+    padding: 30px;
+}
+table{
+    width: 100%;
+}
+/* alaina styled h2, body, words, h1 */
+/* alaina styled everything, body, words,h2,h1,nav bar*/

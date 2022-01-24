@@ -1,0 +1,589 @@
+/*FINAL version of entre.css completed 11/18/2021*/
+body {
+  background: rgb(159,195,252);
+  background: linear-gradient(90deg, rgba(159,195,252,1) 0%, rgba(197,198,253,1) 41%, rgba(243,201,255,1) 100%);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;    
+  background-size: cover;
+}
+body {
+  font-family: 'Courier New', Courier, monospace !important;
+}
+.im {
+  border-radius: 25px;
+  display: block;
+  margin-left: 675px;
+  /*margin-right: 650px;*/
+  position: absolute;
+  
+}
+.im2 {
+  margin-left: 90px;
+  border-radius: 25px;
+  padding-right: 0mm;
+  padding-left: 0mm;
+  padding-top: 0mm;
+  padding-bottom: 0mm;
+}
+#swag {
+  /*text-align: center;*/
+  font-family: 'Chango', cursive;
+  margin-left: 600px;
+}
+#swag1 {
+  /*text-align: center;*/
+  font-family: 'Chango', cursive;
+  margin-left: 575px;
+}
+#swag2 {
+  /*text-align: center;*/
+  font-family: 'Chango', cursive;
+  margin-left: 575px;
+}
+.style {
+  font-weight: bold;
+}
+.img {
+  border-radius: 25px;
+}
+#vid {
+  border-radius: 25px;
+  margin-left: 465px;
+  margin-top: -250px;
+}
+.p {
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+}
+.FAQ {
+  text-align: center;
+  padding-right: 45px;
+  padding-left: 45px;
+  background-color: #f2b6ef;
+}
+.ti {
+  font-weight: bolder;
+}
+.amelia {
+  border-radius: 25px;
+  margin-left: 140px;
+}
+.a {
+  margin-left: -875px;
+  text-align: center;
+  margin-top: 52px;
+}
+.el {
+  border-radius: 25px;
+  margin-left: 105px;
+}
+.ela {
+  text-align: center;
+  margin-left: 815px;
+  margin-top: -70px;
+}
+.ak {
+  text-align: center;
+  margin-left: -850px;
+  margin-top: 40px;
+}
+.cite {
+  text-align: center;
+}
+.e {
+  text-align: center;
+  margin-top: -70px;
+}
+.shinjini {
+  border-radius: 25px;
+  margin-left: 110px;
+}
+.s {
+  text-align: center;
+  margin-top: -70px;
+  margin-left: 825px;
+}
+.aki {
+  border-radius: 25px;
+  margin-left: 140px;
+}
+.elaine {
+  border-radius: 25px;
+  margin-left: 525px;
+}
+.cogs {
+  border-radius: 25px;
+  margin-left: 482px;
+}
+.co {
+  text-align: center;
+}
+#all {
+  margin-left: 70px;
+  padding-top: 0mm;
+  padding-bottom: 0mm;
+  padding-left: 0mm;
+  padding-right: 0mm;
+}
+#kf {
+  margin-left: 750px;
+}
+.one {
+    text-align: center;
+    color: black;
+    width: 300px;
+    border: 0pt;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 525px;
+    margin-top: 20;
+}
+.button {
+  background-color: #152073; /* Green */
+  border-color: #baaef5;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  position: fixed;
+}
+#navbar {
+  /*background-color: #baaef5;*/
+  border: solid;
+  border-color: #51026e;
+  outline: 6px dashed #AC069D;
+  box-shadow: 0 0 0 6px #0693AC;
+  width: 110px;
+  height: 200px;
+  margin-left: -50px;
+  animation: 1s animateBorderOne ease infinite;
+  margin-top: -175px;
+}
+@keyframes animateBorderOne {
+  to {
+    outline-color: #AC069D;
+    box-shadow: 0 0 0 10px #00FFF7;
+  }
+}
+/*#navbar li {
+  display: inline-block;
+}*/
+#navbar a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -112px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#navbar a:hover {
+  left: 0;
+}
+#navbar1 {
+  border: solid;
+  border-color: #51026e;
+  outline: 6px dashed #AC069D;
+  box-shadow: 0 0 0 6px #0693AC;
+  width: 110px;
+  height: 65px;
+  margin-left: -50px;
+  animation: 1s animateBorderOne ease infinite;
+  margin-top: -70px;
+}
+@keyframes animateBorderOne {
+  to {
+    outline-color: #AC069D;
+    box-shadow: 0 0 0 10px #00FFF7;
+  }
+}
+#navbar1 a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -112px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#navbar1 a:hover {
+  left: 0;
+}
+#navbar2 {
+  border: solid;
+  border-color: #51026e;
+  outline: 6px dashed #AC069D;
+  box-shadow: 0 0 0 6px #00FFF7;
+  width: 110px;
+  height: 65px;
+  margin-left: -50px;
+  animation: 1s animateBorderOne ease infinite;
+  margin-top: -70px;
+}
+@keyframes animateBorderOne {
+  to {
+    outline-color: #AC069D;
+    box-shadow: 0 0 0 10px #00FFF7;
+  }
+}
+#navbar2 a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -112px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#navbar2 a:hover {
+  left: 0;
+}
+.div1 {
+  text-align: center;
+  margin-right:10px;
+  margin-top: 6px;
+}
+.div2 {
+  align-self: center;
+  margin-right: 5px;
+  margin-top: 70px;
+}
+.div3 {
+  align-self: center;
+  margin-right: 5px;
+  margin-top: 135px;
+}
+#home {
+  background-color: #ff00f4;
+}
+#products {
+  background-color: #ff00f4;
+}
+#about {
+  background-color: #ff00f4;
+} 
+.div4 {
+  float: left;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+#company {
+  /*position: absolute;
+  border-radius: 0 5px 5px 0;
+  background-color: #baaef5;
+  padding: 15px;
+  width: 100px;
+  left: -112px;
+  transition: 0.3s;
+  color: white;*/
+  background-color: #51026e;
+  position: absolute; /* Position them relative to the browser window */
+  left: -112px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+.div5 {
+  float: left;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.us {
+  text-align: center;
+}
+.us1 {
+  width: 300px;
+  border: 0pt;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  margin-left: 512.5px;
+
+}
+#stuff {
+  background-color: #51026e;
+  position: absolute; /* Position them relative to the browser window */
+  left: -112px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+.topnav {
+  position: absolute; /* Position them relative to the browser window */
+  /*left: -112px; /* Position them outside of the screen */
+  /*transition: 0.3s; /* Add transition on hover */
+  /*padding: 15px; /* 15px padding */
+  /*width: 100px; /* Set a specific width */
+  /*text-decoration: none; /* Remove underline */
+  /*font-size: 20px; /* Increase font size */
+  /*color: white; /* White text color */
+  /*border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  text-align: center;
+}
+/*@keyframes animateBorderOne {
+  to {
+    outline-color: #AC069D;
+    box-shadow: 0 0 0 10px #00FFF7;
+  }
+}*/
+/*@keyframes blink { 
+  50% { border-color: #ff0000; } 
+}*/
+.topnav1 {
+  position: absolute; /* Position them relative to the browser window */
+  /*left: -112px; /* Position them outside of the screen */
+  /*transition: 0.3s; /* Add transition on hover */
+  /*padding: 15px; /* 15px padding */
+  /*width: 100px; /* Set a specific width */
+  /*text-decoration: none; /* Remove underline */
+  /*font-size: 20px; /* Increase font size */
+  /*color: white; /* White text color */
+  /*border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  text-align: center;
+}
+@keyframes animateBorderOne {
+  to {
+    outline-color: #AC069D;
+    box-shadow: 0 0 0 10px #ab1b6a;
+  }
+}
+.topnav2 {
+  position: absolute; /* Position them relative to the browser window */
+  /*left: -112px; /* Position them outside of the screen */
+  /*transition: 0.3s; /* Add transition on hover */
+  /*padding: 15px; /* 15px padding */
+  /*width: 100px; /* Set a specific width */
+  /*text-decoration: none; /* Remove underline */
+  /*font-size: 20px; /* Increase font size */
+  /*color: white; /* White text color */
+  /*border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  text-align: center;
+}
+@keyframes animateBorderOne {
+  to {
+    outline-color: #AC069D;
+    box-shadow: 0 0 0 10px #00FFF7;
+  }
+}
+@keyframes blink { 
+  50% { border-color: #fa5cb3; } 
+}
+.active { /*or other element you want*/
+   animation-name: blink;
+   animation-duration: .5s;
+   animation-timing-function: step-end;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.active {
+  text-align: center;
+  margin-left: 580px;
+  border: 7px solid transparent;
+  font-family: 'Chango', cursive;
+  text-decoration: none;
+}
+/*@keyframes blink { 
+  50% { border-color: #ff0000; } 
+}*/
+.active:hover {
+  animation: blink .5s step-end infinite alternate;
+}
+@keyframes blink { 
+  50% { border-color: #fa5cb3; } 
+}
+.active1 { /*or other element you want*/
+   animation-name: blink;
+   animation-duration: .5s;
+   animation-timing-function: step-end;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.active1 {
+  text-align: center;
+  margin-left: 670px;
+  border: 7px solid transparent;
+  font-family: 'Chango', cursive;
+  text-decoration: none;
+}
+/*@keyframes blink { 
+  50% { border-color: #ff0000; } 
+}*/
+.active1:hover {
+  animation: blink .5s step-end infinite alternate;
+/*@keyframes blink { 
+  50% { border-color: #a444db; } 
+}
+.active1 {
+  /*text-align: center;
+  margin-left: 685px;
+}
+.active1 {
+  animation-name: blink ;
+  animation-duration: .5s ;
+  animation-timing-function: step-end ;
+  animation-iteration-count: infinite ;
+  animation-direction: alternate ;
+}*/
+}
+
+.people {
+  text-align: center;
+  font-family: 'Chango', cursive;
+  text-decoration: none;
+}
+@keyframes blink { 
+  50% { border-color: #fa5cb3; } 
+}
+.stuff { /*or other element you want*/
+   animation-name: blink;
+   animation-duration: .5s;
+   animation-timing-function: step-end;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.stuff {
+  text-align: center;
+  margin-left: 2.5px;
+  border: 7px solid transparent;
+  font-family: 'Chango', cursive;
+  text-decoration: none;
+}
+/*@keyframes blink { 
+  50% { border-color: #ff0000; } 
+}*/
+.stuff:hover {
+  animation: blink .5s step-end infinite alternate;
+}
+.stuff {
+  text-align: center;
+}
+@keyframes blink { 
+  50% { border-color: #fa5cb3; } 
+}
+.people { /*or other element you want*/
+   animation-name: blink;
+   animation-duration: .5s;
+   animation-timing-function: step-end;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.people {
+  text-align: center;
+  margin-left: 2.5px;
+  border: 7px solid transparent;
+}
+/*@keyframes blink { 
+  50% { border-color: #ff0000; } 
+}*/
+.people:hover {
+  animation: blink .5s step-end infinite alternate;
+}
+.video {
+  position: absolute;
+  /*text-align: center;*/
+  display: block; margin: auto;
+}
+  /*display: block;
+  margin-left: auto;
+  margin-right: 100px;
+  width: 50%;
+    background-color: #baaef5;
+    background-position: center !important;
+    justify-content: center;
+    overflow: hidden;
+    position: center;
+    display: inline-block;
+    list-style-type: none !important;
+    margin: 0px auto !important;
+    top: 0;
+    float: left;
+    padding-left: 2rem;
+    padding-right: 0.1rem;
+    transition: 0.4s;
+    width: 22.5%;
+    z-index: 99;*/
+    /*border-color: #baaef5;
+    background-color: #152073;
+    border-style: solid;
+    border-left-width: 1px;
+    border-left-color: #baaef5;
+    border-right-width: 1px;
+    border-right-color: #baaef5;
+    border-bottom-color: #baaef5;
+    /*border-color: #6e161c;*/
+    /*border-width: 1px;
+    text-align: center;
+    padding-left: 0.103rem;
+    font-size: 23;
+    margin: 12px;
+    position: fixed;
+    background-position: center;
+    position: center;
+    nav-right: auto;
+    nav-left: auto;*/
+  }
+/*.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color:#baaef5;
+    color: white;
+  }
+  .topnav1 {
+    border-color: #baaef5;
+    background-color: #152073;
+    border-style: solid;
+    border-left-width: 1px;
+    border-left-color: #baaef5;
+    border-right-width: 1px;
+    border-right-color: #baaef5;
+    border-bottom-color: #baaef5;
+    /*border-color: #6e161c;
+    border-width: 1px;
+    text-align: center;
+    padding-left: 0.103rem;
+    font-size: 23;
+    margin: 12px;
+    position: fixed;
+    background-position: center;
+    position: center;
+    nav-right: auto;
+    nav-left: auto;
+  }
+  .topnav1 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav1 a:hover {
+    background-color:#baaef5;
+    color: white;
+  }

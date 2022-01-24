@@ -1,0 +1,84 @@
+
+/*Katie made this file on 11/1/21*/
+/*Katie wrote the code for the navbar on 11/2/21*/
+/*Katie added the code for images on 11/9/21*/
+/*Anika and Katie added the font for the <p> tags on 11/15/21*/
+/*Katie changed the background and title border color then changed the navbar font, decoration, decoration color, and size on 11/18/21*/
+/*Anika removed the decoration for the headers over the images on 11/18/21*/
+/* Caroline changed some of the font sizes on 1/21/22*/ 
+
+
+
+#navbar {
+    background-color: rgb(216, 248, 253);
+    border-style: solid;
+    border-width: 1px
+}
+ 
+#navbar li {   
+    display: inline-block
+}
+
+#navbar a {
+    color: rgb(45, 74, 94);
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-decoration: none
+}
+
+#navbar a:hover {
+    color: #426274;
+}
+
+img {
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+    
+}
+
+
+
+
+body {
+    text-align: center;
+    background-color: rgb(205, 226, 231);
+}
+
+p {
+    font-family:  'Thasadith';
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    border-style: solid;
+    border-color: #426274;
+    background-color: rgb(216, 248, 253);
+    font-size: 38px;
+}
+
+#headers {
+    width: 200px;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-decoration-color: #426274;
+}
+
+h2 { 
+
+font-family: 'Dancing Script', cursive;    
+font-size: 40px;
+}
+
+
+

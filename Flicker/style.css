@@ -1,0 +1,55 @@
+/* Izzy worked on style code 11/15*/
+
+#navbar {
+    background-color:whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+    
+    
+}
+
+#navbar li {
+    display: inline-block;
+
+}
+
+h1 {
+text-align: center;
+font-family: 'Cookie', cursive;
+font-style: italic;
+}
+h2 {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive; 
+
+}
+
+
+h3{
+    text-align:center;
+}
+
+p {
+    text-align: left;
+    font-family:'Balsamiq Sans',cursive;
+}
+
+body {
+background-color:#e8fdff;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+h4 {
+    text-align: left;
+}
+
+#flicker{
+    margin:auto;
+    display: block;
+}
+
+
