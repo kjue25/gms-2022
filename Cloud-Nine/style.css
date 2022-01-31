@@ -5,13 +5,8 @@
 
 
 
-
-
-#cloudtable{
-float:left;  
-}
-#cloudbedroom{
-    float:right;
+#ProductPhotos{
+    float: left;
 }
 
 
@@ -24,7 +19,7 @@ a{
 }
 
 a:hover{
-    color: white;
+    transform: scale(1.05);
 }
 h2:hover{
 color: white;
@@ -45,6 +40,10 @@ h1{
 }
 #navbar{
     text-align:left;
+    border-style: none;
+}
+#ProductsTitle{
+color: #8e6e9c
 }
 img{
     border-radius: 60px;
@@ -57,9 +56,7 @@ img{
     border-style: solid;
     border-width: 20px;
     border-color: white;
-    background-image: url("mint.jpg");
-    background-color: #baefff;
-    background-color: whitesmoke;
+    background-color: #bacbe6;
     text-align:center;
     font-family: cursive;
     margin:10px;
@@ -72,31 +69,25 @@ img{
         border-style: solid;
         border-width: 20px;
         border-color: whitesmoke;
-    
-        background-image: url("navbar4.jpg");
-         
-        background-color: white;
-        background-color: whitesmoke;
+        background-color: #bacbe6;
         text-align:center;
         font-family: cursive;
         margin:10px;
         font-family: cursive;
         color: white;
+        
 }
 
 #company{
     border-style: solid;
     border-width: 20px;
     border-color: whitesmoke;
-    background-image: url("mint.jpg");
     scroll-behavior: smooth;
-    background-color: white; 
-    background-color: whitesmoke;
+    background-color: #bacbe6; 
     text-align:center;
     font-family: cursive;;
     margin:10px;
     font-family: cursive;
-    color: white;
     text-decoration-color: white;
     
 }
@@ -111,30 +102,48 @@ img{
          font-size-adjust:5px;
      }
 
-h2{
-    color:#487bb0; 
+#quote{
+    color:#ffcfe5
+    ; 
+    background-color:#fff8e6;
+    border-width: 10px;
+    font-size: 30px;
+    border-style: solid;
+    border-color:white
+    
+
 }
 
 p{
-    Color:#487bb0;
+    Color:#fff8e6;
     font-family: 'Courier New', Courier, monospace;
     font-size:20px;
     
 }
+h2{
+    color: white;
+    font-size: 20px;
+}
 h1 {
    
-    font-family: cursive ; color:#487bb0;
-    font-size: 75px;
-    border-style: solid;
-    border-width: 20px;
+    font-family: cursive ; color:#ffcfe5;
+    font-size: 80px;
+    font-weight: 900;
+    border-style:solid;
+    border-width: 10px;
+    border-color: white;
+    border-style: none;
+    background-color: white;
+    background-size: 50px;
+    border-width: 40px;
     border-color: white
+    
 }
-
-
 #navbar {
     background-color: lightblue;
     border-style: solid;
-    border-width: 2px;
+    border-width: 15px;
+    border-color: white;
     background-image: url("navbar4.jpg");
     
     }
@@ -171,6 +180,7 @@ h1 {
     
    #music_words{
    margin:0;
+   text-align:right;
    }
     body {
         background-size: 400% 400%;
@@ -182,7 +192,7 @@ h1 {
     float: inline-end;
 }
 #music{
-    float: right;
+    float:right;
     display:block;
 }
     table{
@@ -203,6 +213,13 @@ iframe{
         font-size:20px;
         color: white; 
     }
+
+    #ClW{
+        text-align: center;
+        }
+        #CL{
+        float: center;
+        }
 
 .company_photos {
     padding-left: 30px;
@@ -225,15 +242,30 @@ iframe{
           font-size: 3em;
           color: white;
         }
-
-       
-        #ClW{
-            text-align: left;
-        }
-        
-        #CL{
-             float: right;
-        }
+    img{
+      border-color: linear-gradient( #e6fb04, #ff6600,#00ff66, #00ffff 
+      #ff00ff, #ff0099,#6e0dd0, #ff3300, #099fff);
+    border-width: 20px;
+    0%{
+        border-color:pin
+    }
+    border-style:solid;
+    animation: animate 20s linear infinate
+    } 
+    @keyframes animate{
+        0%{
+            background-position: 0 0;
+         }
+         50%{
+             background-position: 400% 0;
+         }
+         100%{
+             background-position: 0 0;
+         }
+    }
+    .glow::after{
+        filter:blur(40px);
+    }
     
     @keyframes gradient {
         0% {

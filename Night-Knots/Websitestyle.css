@@ -5,17 +5,22 @@ h3 {
     text-decoration-line: underline;
     text-decoration-color: #ccc1e8;
     font-family: 'Dancing Script', cursive;
+   
 }
  
 h2 {
     color: black;
-    background-color:  #faf5ff;
+    background-color: #f6f5ff;
       font-family: 'Dancing Script', cursive;
 }
  
  
    /* Search "hex color picker" in Google to pick a color by hex value */
-h5 {  
+h5{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.names{  
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -23,15 +28,16 @@ h5 {
 }   
 h4{
     font-family: 'Dancing Script', cursive;
-    font-size: 45px;
+    font-size: 45px; 
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #f6f5ffa6;
+    margin: 30;
 }
  
  body {
-    border-style: double;
-    border-width: 7px;
-    border-color:#ccc1e8;
     text-align: center;
-    background-color:#fdf2ff;
+    background-color: #e8e6ff;
   
 } 
      /* changed headers to smaller fonts and ajusted pictures by annika on 11/15 */
@@ -43,24 +49,21 @@ table {
    
 #navbar{
     font-size: 30px;
-    border-width: 10px;
-    text-align: center;
-    padding-top: 10;
-    border: #ccc1e8;
-    border-style: double;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 15px;
     text-align: center;
     list-style-type: disc;
     height: 60px; 
     font-family: 'Dancing Script', cursive;
-    background-color: #e2e2ff;
+    border-radius: 25px;
+    position: inherit;
+    background-color: #f6f5ffc2;
   }
 
-#Logo{
-border-style: none;
-margin: 20px;
+
+.Logo{
+margin-bottom: 20;
+margin-top: 20;
 }
 
 iframe{
@@ -68,7 +71,10 @@ iframe{
     border-color: #ccc1e8;
     border-width: 5px;
     }
-
+#product{
+    position: absolute;
+    width: 90%;
+}
 
 img{
 border-style: double;
@@ -76,38 +82,32 @@ border-color: #ccc1e8;
 border-width: 5px;
 }
 li{
-    margin: 5mm;
-    display: inline;
+    list-style: none;
     text-align: center;
     color: #003366;
-    position:absolute;
-    top: 250;
+    position: absolute;
     font-family: 'Dancing Script', cursive;
+    margin-top: 10;
 }
 td{
 margin: 10;
 }
 #index{
-   left: 500;
+   left: 350;
 }
 #company{
-    right: 500;
+    right: 350;
 }
-#index1{
-    left: 500;
- }
- #company1{
-     right: 500;
- }
 li:hover{
-   color: white;
+   color: #f6f5ffc2;
     
 }
 .transparent{
     width: 33%;
-    opacity: 50%;
+    opacity: 85%;
     border-style: none;
-    margin-top: 5;
+    margin-top: 30;
+    border-radius: 10;
 }
 th{
     color: black;
@@ -122,28 +122,40 @@ a:hover{
     color: rgb(138, 138, 138);
 }
 .header1{
-    background-color: #efe2ff;
+    background-color: #f6f5ff;
     text-decoration:none;
+    border-style: none;
+    border-radius: 25px;
+    margin: 30;
 }
 #ourteam{
     background-color: #f8e2ffa1;
     text-decoration: none;
+    border-radius: 25px;
 }
-
-/* 
-#c1d8f5 light blue
-
-
-#d6d0d0 light grey */
-
-
-
-
-
-
-
-
-
-   
-    
-
+#center{
+    text-align: center;
+}
+iframe{
+    border-radius: 25px;
+    margin-top: 10;
+}
+.teampics{
+    border-radius: 15px;
+}
+img{
+    border-radius: 25px;
+    border-style: none;
+}.intro{
+    font-size: medium;
+    margin: 10;
+}
+p{
+    font-family: 'Montserrat', sans-serif
+}
+li{
+    object-position: center;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
