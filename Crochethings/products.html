@@ -1,0 +1,107 @@
+<!-- Made my Medha :3 -->
+<!-- more like Aly ÒwÓ -->
+<html>
+    <head>
+        <title>Crochethings - Products</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Covered+By+Your+Grace&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="Screen Shot 2022-01-31 at 4.48.25 PM.png" /> 
+    </head>
+    <body>
+        <div id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="company.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <link rel="shortcut icon" href="Screen Shot 2022-01-31 at 4.48.25 PM.png" /> 
+            </ul>
+        </div>
+        <h1>C r o c h e t h i n g s</h1>
+        <h2>Products</h2>
+        <table id="products">
+          <tr>
+            <td><img src="bee.jpg" width="300" height="300" class="productphoto"></td>
+            <td><img src="Copy of 3_DSC2950.jpg" width="300" height="300" class="productphoto"></td>
+          </tr>
+          <tr>
+            <td class="text3">Bumble Bee</td>
+            <td class="text3">Whales</td>
+          </tr>
+          <tr>
+            <td><img src="7L03-005.jpg" width="300" height="300" class="productphoto"></td>
+            <td><img src="7L03-004.jpg" width="300" height="300" class="productphoto"></td>
+          </tr>
+          <tr>
+            <td class="text3">Sad Octopus</td>
+            <td class="text3">Happy Octopus</td>
+          </tr>
+          <tr>
+            <td><img src="Screen Shot 2022-01-31 at 4.59.05 PM.png" width="300" height="300" class="productphoto"></td>
+            <td><img src="Screen Shot 2022-01-24 at 2.25.09 PM.png" width="300" height="350" class="productphoto"></td>
+          </tr>
+          <tr>
+            <td class="text3">Bunny</td>
+            <td class="text3">The BEEded Collection</td>
+          </tr>
+        </table>
+        <h2>More Info</h2>
+        <table id="Cost">
+          <tr class="rc">
+             <td class="rc"> </td>
+            <td class="rc">Whales (blue and teal)</td>
+            <td class="rc">Bunnies</td>
+            <td class="rc">Bees</td>
+            <td class="rc">Reversible Octopus</td>
+          </tr>
+          
+          <tr>
+            <td class="rc">Costs</td>
+            <td class="rc">$8</td>
+            <td class="rc">$21</td>
+            <td class="rc">$21</td>
+            <td class="rc">$15</td>
+          </tr>
+          <tr>
+            <td class="rc">Length</td>
+            <td class="rc">5 1/2 inches</td>
+            <td class="rc">11 inches</td>
+            <td class="rc">8 inches</td>
+            <td class="rc">5 inches</td>
+          </tr>
+          <tr>
+            <td class="rc">width</td>
+            <td class="rc">6 1/2 inches</td>
+            <td class="rc">4 inches</td>
+            <td class="rc">4 1/2 inches</td>
+            <td class="rc">5 inches</td>
+          </tr>
+          <tr>
+            <td class="rc">height</td>
+            <td class="rc">3 3/4 inches</td>
+            <td class="rc">4 inches</td>
+            <td class="rc">4 1/2 inches</td>
+            <td class="rc">4 1/2 inches</td>
+          </tr>
+        </table>
+        
+    </body>
+</html>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    
+    var navbar = document.getElementById("navbar");
+    
+    
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>

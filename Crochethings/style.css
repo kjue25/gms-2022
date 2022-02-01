@@ -1,0 +1,140 @@
+/* changed by mia - nav bar and colors + some p and a tags*/
+
+
+h1 { 
+    font-family:'Birthstone Bounce';
+    text-align: center;
+    font-size: 18mm;
+    color: #9370db
+}
+h2 { 
+    font-family:'Covered By Your Grace',fantasy;
+    font-size: 12mm;
+    color: #9370db;
+    background-color: #e4d6ff;
+}
+
+#pictures {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.pic {
+    padding: 10px;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+}
+
+.text2 {
+    word-wrap: break-word;
+    width: 200px;
+    font-size: 23px;
+    text-align: center;
+}
+
+
+.thtd {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.tr:nth-child(1) {
+    background-color: #dcd0ff
+}
+
+html {
+    text-align: center;
+}
+#navbar li{
+    display: inline;
+    padding:15px;
+    font-size: large;
+}
+            
+#navbar{
+     padding:20px;
+     background-color:#c7b0f5;
+}
+
+
+p {
+    font-family: 'Nanum Pen Script', fantasy;
+    font-size: 8mm;
+    }
+
+a {
+    color: #4b0082;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Nanum Pen Script', fantasy;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    
+    .content {
+    padding: 16px;
+    }
+    
+    .sticky + .content {
+    padding-top: 60px;
+    }
+
+#products {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productphoto {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #dcd0ff;
+    margin: 15px;
+}
+
+#Cost {
+    font-family: 'Nanum Pen Script', fantasy;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.rc{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.text3 {
+    text-align: center;
+    font-family: 'Nanum Pen Script', fantasy;
+    font-size: 25px;
+}
+
+body {
+    background-color: #f3edff;
+}
+/* .parallax { */
+    /* background-image: url("Screen\ Shot\ 2022-01-24\ at\ 8.58.19\ AM.png"); */
+    /* min-height: 100px;  */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+  /* } */

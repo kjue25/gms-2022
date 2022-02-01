@@ -1,0 +1,90 @@
+/* Both Ayelet and Sophia worked on this */
+/* jaya made changes to this */
+h1 {
+    color: black;
+    font-size: 60px;
+    font-family: 'Playfair Display';
+    text-align: center;
+    }
+     
+h2 {
+    color: black;
+    font-family: cursive; 
+    text-align: center;
+    font-family: 'Playfair Display';
+    }
+     
+p {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    text-align: center;
+   
+}
+
+body {
+    background-color: #fffbf0;
+    text-align: center;
+    }
+
+img {
+    border-width: 4px;
+    border-color: black;
+    border-style: dotted;
+    padding: 10px;
+    margin: 30px;
+   
+}
+
+#navbar {
+    color:black;
+    text-align: center; 
+    border-style: dotted;
+    background-color: #ffdbee;
+}
+
+#navbar ul {
+    padding: 0;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 2px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Bad Script';
+}
+
+#navbar :hover {
+   text-decoration: underline;
+}
+
+
+h3 {
+    color:black;
+    font-size: 27px;
+    font-family:Raleway;
+}
+
+#blank {
+    border-style: none;
+}
+
+#rose {
+    text-align: right; 
+}
+
+th {
+    font-size: 20px;
+}
+
+#logo {
+    border-style: solid;
+    border-color: #fffbf0;
+}

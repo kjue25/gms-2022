@@ -1,0 +1,42 @@
+<!-- Medha lolz experimented w stuff on 11/18 -->
+<html>
+    <head>
+        <title>Crochethings - eStore</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Covered+By+Your+Grace&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="entre-logo.png" /> 
+    </head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="company.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="store.html">eStore</a></li>
+        </ul>
+    </div>
+    <h1>C r o c h e t h i n g s</h1>
+
+
+</body>
+</html>
+<script>
+    window.onscroll = function() {myFunction()};
+
+
+var navbar = document.getElementById("navbar");
+
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+navbar.classList.add("sticky")
+} else {
+navbar.classList.remove("sticky");
+}
+}
+
+</script>

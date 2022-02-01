@@ -6,7 +6,7 @@ def image_extension(f):
 	return f.endswith('.jpg') or f.endswith('.png') or f.endswith('.jpeg')
 
 def delete_unused_images(dirname):
-	html_files = [f for f in os.listdir(dirname) if f.endswith('.html')]
+	html_files = [f for f in os.listdir(dirname) if f.endswith('.html') or f.endswith('.css')]
 	website_contents = ""
 	for filename in html_files:
 		with open(os.path.join(dirname, filename), 'r') as f:
