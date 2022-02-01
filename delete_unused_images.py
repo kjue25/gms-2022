@@ -24,6 +24,8 @@ def delete_unused_images(dirname):
 	for filename in to_delete:
 		os.remove(os.path.join(dirname, filename))
 
+        # TODO: Fix for CSS files and spaces with \
+
 def main():
 	args = sys.argv[1:]
 	dirname = args[0]
