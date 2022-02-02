@@ -2,7 +2,7 @@
 body {
   text-align: center;
   background-color: #f0f4f7;
-  Font-family: 'Montserrat', sans-serif;
+  font-family: 'Dongle', sans-serif;
   height: 675px;
   border-bottom: 15px;
   border-top: 15px;
@@ -51,7 +51,7 @@ h5 {
 h4{  
     color: black;
     font-size: 20px;
-    Font-family: 'Montserrat', sans-serif;
+    Font-family: 'Dongle', sans-serif;
     margin-left: 400px;
     margin-right: 400px;
     margin-bottom: 50px;
@@ -59,13 +59,13 @@ h4{
 p { 
     color: black;
 font-size: x-large;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Dongle', sans-serif;
 margin-bottom: 50;
 }
 h6 {
     color: black;
     font-size: 20px;
-    Font-family:  'Montserrat', sans-serif;
+    Font-family:  'Dongle', sans-serif;
     margin-left: 400px;
     margin-right: 650px;
     margin-bottom: 50px;

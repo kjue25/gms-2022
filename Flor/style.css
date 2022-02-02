@@ -24,8 +24,8 @@ a {
 }
 
 #table_1 {
-padding-left: 200px;
-margin-right: 750px;
+margin-left: 120px;
+margin-right: 700px;
 padding-top: 40px;
 }
 
@@ -113,8 +113,8 @@ color: black;
         padding-right: 10px ; 
     }
     #table_2{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     ul{
