@@ -72,8 +72,19 @@ table {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     text-decoration-color: #426274;
+
+
 }
 
+#bracelet {
+
+text-align: center;
+font-family: 'Dancing Script',cursive;
+font-size: 20px;
+text-decoration-color: #426274  ;
+
+
+}
 h2 { 
 
 font-family: 'Dancing Script', cursive;    
