@@ -121,8 +121,9 @@ p{
     
 }
 h2{
-    color: white;
-    font-size: 20px;
+    Color:#fff8e6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
 }
 h1 {
    
@@ -181,6 +182,8 @@ h1 {
    #music_words{
    margin:0;
    text-align:right;
+   background-color: #ffcfe5;
+   border-radius: 60px;
    }
     body {
         background-size: 400% 400%;
@@ -194,13 +197,15 @@ h1 {
 #music{
     float:right;
     display:block;
+    text-align:center;
 }
-    table{
+table{
         text-align: center;
         Color:#487bb0;
         font-family: 'Courier New', Courier, monospace;
         font-size:15px;
         width: 100%;
+        float: center;
     }
 
 iframe{
@@ -216,7 +221,11 @@ iframe{
 
     #ClW{
         text-align: center;
-        }
+        Color:#fff8e6;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:20px;
+}
+
         #CL{
         float: center;
         }
@@ -246,12 +255,28 @@ iframe{
       border-color: linear-gradient( #e6fb04, #ff6600,#00ff66, #00ffff 
       #ff00ff, #ff0099,#6e0dd0, #ff3300, #099fff);
     border-width: 20px;
-    0%{
-        border-color:pin
+    0% {
+        border-color:pin;
     }
     border-style:solid;
     animation: animate 20s linear infinate
     } 
+
+    #product_table{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width:50%;
+    margin:auto;
+    }
+
+    #light_table{
+        color: white;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        width:35%;
+        margin:auto;   
+    }
     @keyframes animate{
         0%{
             background-position: 0 0;
