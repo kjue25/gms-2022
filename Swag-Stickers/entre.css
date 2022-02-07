@@ -1,6 +1,12 @@
 body {
-  background: rgb(159,195,252);
-  background: linear-gradient(90deg, rgba(159,195,252,1) 0%, rgba(197,198,253,1) 41%, rgba(243,201,255,1) 100%);
+  /*background: rgb(159,195,252);
+  background: linear-gradient(90deg, rgba(159,195,252,1) 0%, rgba(197,198,253,1) 41%, rgba(243,201,255,1) 100%);*/
+  /*background-color: #f2ea9b;*/
+  background-color: #fff2cc;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  border-bottom: -25px;
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -37,7 +43,7 @@ body {
 }
 .im1 {
   position: absolute;
-  margin-left: 664px;
+  margin-left: 650px;
   border-radius: 25px;
 }
 .table {
@@ -194,7 +200,7 @@ body {
     margin-left: 525px;
     margin-top: 20;*/
     margin-right: 350px;
-    margin-left: 400px;
+    margin-left: 468px;
     margin-top: 80px;
 }
 .button {
@@ -223,7 +229,8 @@ body {
 }
 @keyframes animateBorderOne {
   to {
-    outline-color: #AC069D;
+    /*outline-color: #AC069D;*/
+    outline-color: #f2b6ef;
     box-shadow: 0 0 0 10px #00FFF7;
   }
 }
@@ -257,7 +264,8 @@ body {
 }
 @keyframes animateBorderOne {
   to {
-    outline-color: #AC069D;
+    /*outline-color: #AC069D;*/
+    outline-color: #f2b6ef;
     box-shadow: 0 0 0 10px #00FFF7;
   }
 }
@@ -288,7 +296,8 @@ body {
 }
 @keyframes animateBorderOne {
   to {
-    outline-color: #AC069D;
+    /*outline-color: #AC069D;*/
+    outline-color: #f2b6ef;
     box-shadow: 0 0 0 10px #00FFF7;
   }
 }
@@ -419,7 +428,8 @@ body {
 }
 @keyframes animateBorderOne {
   to {
-    outline-color: #AC069D;
+    /*outline-color: #AC069D;*/
+    outline-color: #f2b6ef;
     box-shadow: 0 0 0 10px #ab1b6a;
   }
 }
@@ -437,12 +447,14 @@ body {
 }
 @keyframes animateBorderOne {
   to {
-    outline-color: #AC069D;
+    /*outline-color: #AC069D;*/
+    outline-color: #f2b6ef;
     box-shadow: 0 0 0 10px #00FFF7;
   }
 }
 @keyframes blink { 
-  50% { border-color: #fa5cb3; } 
+  /*50% { border-color: #fa5cb3; } */
+  50% {border-color: #f2b6ef;}
 }
 .active { /*or other element you want*/
    animation-name: blink;
@@ -471,7 +483,8 @@ body {
   animation: blink .5s step-end infinite alternate;
 }
 @keyframes blink { 
-  50% { border-color: #fa5cb3; } 
+  /*50% { border-color: #fa5cb3; } */
+  50% { border-color: #f2b6ef; } 
 }
 .active1 { /*or other element you want*/
    animation-name: blink;
@@ -482,7 +495,7 @@ body {
 }
 .active1 {
   text-align: center;
-  margin-left: 677px;
+  margin-left: 665px;
   border: 7px solid transparent;
   text-decoration: none;
   color: #51026e;
@@ -523,7 +536,8 @@ body {
   color: #51026e;
 }
 @keyframes blink { 
-  50% { border-color: #fa5cb3; } 
+  /*50% { border-color: #fa5cb3; } */
+  50% { border-color: #f2b6ef;}
 }
 .stuff { /*or other element you want*/
    animation-name: blink;
@@ -555,7 +569,8 @@ body {
   text-align: center;
 }
 @keyframes blink { 
-  50% { border-color: #fa5cb3; } 
+  /*50% { border-color: #fa5cb3; } */
+  50% { border-color: #f2b6ef;}
 }
 .people { /*or other element you want*/
    animation-name: blink;
@@ -579,6 +594,7 @@ body {
   position: absolute;
   /*text-align: center;*/
   display: block; margin: auto;
+  margin-left: -100rem;
 }
   /*display: block;
   margin-left: auto;

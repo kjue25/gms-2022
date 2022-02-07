@@ -10,11 +10,13 @@ def compressMe(file):
     # Get the path of the file
     filepath = os.path.join(os.getcwd(), 
                             file)
-    if (os.path.getsize(filepath) > 10000):
+    if (os.path.getsize(filepath) > 10000): # TODO: Maybe update this number
         print("Compressing " + filepath)  
         try:
             # open the image
             picture = Image.open(filepath)
+                
+            # TODO: Avoid files that are too small
               
             # Save the picture with desired quality
             # To change the quality of image,
