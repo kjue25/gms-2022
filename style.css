@@ -1,5 +1,6 @@
-body{
-    
+
+td{
+    align-self: center;
 }
 
 div{
@@ -28,7 +29,9 @@ h2 {
     margin-top:0px;
   
 }
-
+td{
+    width: 200;
+}
 p {
     font-size: 20px;
 }
